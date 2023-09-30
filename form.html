@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Registro</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Box-Icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Font Awasome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+        <form action="">
+            <h1>Registro Usuario</h1>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="text" placeholder="Full Name" required>
+                    <i class='bx bxs-user' ></i>
+                </div>
+                <div class="input-field">
+                    <input type="text" placeholder="Username" required>
+                    <i class='bx bxs-user' ></i>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="email" placeholder="Email" required>
+                    <i class='bx bxs-envelope'></i>
+                </div>
+                <div class="input-field">
+                    <input type="number" placeholder="Telefono" required>
+                    <i class='bx bxs-phone-call' ></i>
+                </div>
+            </div>
+            <div class="input-box">
+                <div class="input-field">
+                    <input type="password" placeholder="Password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+                <div class="input-field">
+                    <input type="number" placeholder="Confirm Password" required>
+                    <i class="fa-solid fa-lock"></i>
+                </div>
+            </div>
+            <label for=""> <input type="checkbox">Declaro que la información es correcta y verdadera</label>
+            <button type="submit" class="btn btn-primary">Registrar
+                <i class="fa-solid fa-box-archive"></i>            
+            </button>
+        </form>
+    </div>
+</body>
+</html>
